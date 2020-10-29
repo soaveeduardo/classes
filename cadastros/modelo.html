@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>User Registration</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                First Name <input type="text" name="txtfn" id="txtfn" placeholder="First Name" > 
+                Last Name <input type="text" name="txtln" id="txtln" placeholder="Last Name" >
+            </p>
+            <p>
+                Born Date <input type="date" name="born" id="born" value="2000-10-10">    
+                Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>              
+            </p>
+            <p>
+                CPF: <input type="number" name="txtcpf" id="txtcpf" placeholder="123.456.789-11" >
+            </p>
+            <p>
+                E-mail <input type="text" name="txtemail" id="txtemail" placeholder="bill@email.com" value="oi@">
+                Confirm E-mail <input type="text" name="txtcemail" id="txtcemail" placeholder="bill@email.com" value="oi@">
+                <input type="button" name="cadastrar" id="btncadastrar" value="Cadastrar" onclick="verificarCadastro ()">
+            </p>
+            
+        </div>
+        <div id="divres">
+
+        </div>
+        
+        <div id="tabela">
+            <table>
+                <thead>
+                <tr>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                </tr>
+                </tbody>
+                </table>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Eduardo Soave</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
